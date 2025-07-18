@@ -28,15 +28,20 @@ This is a secure RESTful API built with **Spring Boot** that allows users to reg
 
 ## 📦 Project Structure
 src
-└── main
-├── java/com/mukul/security/
-│ ├── Controller/
-│ ├── Model/
-│ ├── Repository/
-│ ├── Service/
-│ └── config/
-└── resources/
-└── application.properties
+project-root/
+├── src/
+│ └── main/
+│ ├── java/
+│ │ └── com/mukul/security/
+│ │ ├── Controller/
+│ │ ├── Model/
+│ │ ├── Repository/
+│ │ ├── Service/
+│ │ └── config/
+│ └── resources/
+│ └── application.properties
+├── pom.xml
+├── README.md
 
 ---
 
