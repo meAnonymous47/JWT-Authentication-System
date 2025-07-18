@@ -35,9 +35,20 @@ Use **Postman** to test the following endpoints:
 - `POST /register` – Register a new user  
 - `POST /login` – Authenticate and receive JWT token
 
-### 📦 Store
+## 📦 Store Module
 
-- `GET /items` – Get list of store items (requires valid JWT token in `Authorization` header)
+### 🛒 Add Items
+- **POST** `/items`
+- Description: Adds a new item to the Dukaan store.
+
+### 📂 Get All Items
+- **GET** `/items`
+- Description: Fetches all available items from the store.
+
+### 🔍 Get Item by ID
+- **GET** `/items/{id}`
+- Description: Fetches a specific item based on the provided ID.
+
 
 ---
 
